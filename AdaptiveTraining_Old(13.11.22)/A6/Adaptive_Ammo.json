@@ -1,0 +1,5 @@
+{"spatial_ego": "python3 adaptiveTraining.py spatial spatial egocentric",
+"training": "python3 adaptiveTraining.py train train allocentric-rear",
+"allo": "python3 adaptiveTraining.py spatial spatial allocentric",
+"L1ttc2":"python3 adaptiveTraining.py load-1 ttc2 allocentric-rear",
+"L1ttc1": "python3 adaptiveTraining.py load-1 ttc1 allocentric-rear" }

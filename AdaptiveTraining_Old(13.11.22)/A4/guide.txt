@@ -1,0 +1,25 @@
+COMMANDS TO RUN:
+python3 adaptiveTraining.py <scenario> <script> <sensor preset>
+
+training:
+python3 adaptiveTraining.py train train allocentric-rear
+
+acc:
+TTC1 -
+python3 adaptiveTraining.py load-1 ttc1 allocentric-rear
+python3 adaptiveTraining.py load-2 ttc1 allocentric-rear
+python3 adaptiveTraining.py load-3 ttc1 allocentric-rear
+TTC2 -
+python3 adaptiveTraining.py load-1 ttc2 allocentric-rear
+python3 adaptiveTraining.py load-2 ttc2 allocentric-rear
+python3 adaptiveTraining.py load-3 ttc2 allocentric-rear
+
+spatial:
+python3 adaptiveTraining.py spatial spatial allocentric
+python3 adaptiveTraining.py spatial spatial egocentric
+
+slallum:
+python3 adaptiveTraining.py latency0 geffen allocentric
+python3 adaptiveTraining.py latency1 geffen allocentric
+python3 adaptiveTraining.py latency2 geffen allocentric
+python3 adaptiveTraining.py latency3 geffen allocentric

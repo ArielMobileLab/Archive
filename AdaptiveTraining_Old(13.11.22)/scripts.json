@@ -1,0 +1,9 @@
+{"train": "wmctrl -r rear_view -b add,above ; wmctrl -r speed -b add,above ; roslaunch cognata_sdk train.launch",
+"spatial": "wmctrl -r speed -b add,above ; roslaunch cognata_sdk train.launch",
+"latency": "wmctrl -r speed -b add,above ; roslaunch cognata_sdk latency.launch",
+"latency0": "wmctrl -r speed -b add,above ; roslaunch cognata_sdk latency.launch",
+"latency1": "wmctrl -r speed -b add,above ; roslaunch cognata_sdk latency.launch delayValue:=1",
+"latency2": "wmctrl -r speed -b add,above ; roslaunch cognata_sdk latency.launch delayValue:=2",
+"latency3": "wmctrl -r speed -b add,above ; roslaunch cognata_sdk latency.launch delayValue:=3",
+"ttc1": "wmctrl -r rear_view -b add,above ; wmctrl -r speed -b add,above ; roslaunch cognata_sdk ttc.launch",
+"ttc2": "wmctrl -r rear_view -b add,above ; wmctrl -r speed -b add,above ; roslaunch cognata_sdk ttc.launch ttcValue:=2"}
